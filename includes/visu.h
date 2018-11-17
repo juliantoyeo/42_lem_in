@@ -12,7 +12,7 @@
 
 #ifndef VISU_H
 # define VISU_H
-# include "mlx.h"
+# include "../minilibx/mlx.h"
 # include <math.h>
 # define SCREEN_X 1500
 # define SCREEN_Y 1500
