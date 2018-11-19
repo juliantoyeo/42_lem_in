@@ -10,9 +10,16 @@ https://github.com/juliantoyeo/42_lem_in/blob/master/project_pdf/lem-in.en.pdf
 
 # Installation
 
-Clone this project, run terminal and type 
+Clone this project, run terminal
+
+type 
 ```
 make
+```
+
+Or change the permission from the lem_in executable with
+```
+chmod 777 lem_in
 ```
 
 # Project Target
@@ -21,7 +28,11 @@ The target for this project is to find the shortest path possible for the ants t
 
 example of the room looks like this:
 
+<img src="https://github.com/juliantoyeo/42_lem_in/blob/master/assets/room_example.png" width="640" height="400">
+
 and it will be easier to see this in action:
+
+<img src="https://github.com/juliantoyeo/42_lem_in/blob/master/assets/lem_in_animation.gif" width="640" height="400">
 
 # Project rule
 
@@ -65,9 +76,12 @@ the_links
 
 The parsing data can be given to the program either by typing in the terminal like this
 
-<img>
+<img src="https://github.com/juliantoyeo/42_lem_in/blob/master/assets/parsing_format.png" width="640" height="400">
 
 or reading putting it in a file and send it to the program by doing this in the terminal
+
+<img src="https://github.com/juliantoyeo/42_lem_in/blob/master/assets/lem_in_parsing.gif" width="640" height="400">
+
 
 # Parsing rule
 
