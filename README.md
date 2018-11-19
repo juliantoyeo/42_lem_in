@@ -1,7 +1,12 @@
 # 42_lem_in
 
-Lem_in is a project about finding the shortest path possible with algoritm.
-This project trains me on tedious parsing format and finding the best algoritm to solve the project.
+Lem_in is a project about finding the shortest path possible with algorithm.
+
+This project trains me on tedious parsing format and finding the best algorithm to solve the project.
+
+More information about the project : 
+
+https://github.com/juliantoyeo/42_lem_in/blob/master/project_pdf/lem-in.en.pdf
 
 # Project Target
 
@@ -18,6 +23,12 @@ and it will be easier to see this in action:
 - The ant must move from the start room to the end room with the shortest path possible.
 - Each path is assumed to be same length and distance, thus shortest path does not count the path length, just the amount of room changing is counted.
 - Each room must be linked to at least one of the other room (thus all room can be accessed).
+
+# Project solving
+
+Shortest path algorithm is always a very important algorithm in the programming as data maybe contained in different location.
+
+The shortest
 
 
 # Parsing format
@@ -45,6 +56,8 @@ or reading putting it in a file and send it to the program by doing this in the 
 - Lines that start with ## are commands that only to indicate the start and ending room with the data that comes right after at the next line
 - Unknown ## commands other then "start" and "end" will be ignored
 - Lines that start with # is comments line and the program will ignore it
+- No empty space after each line
+- No empty line in between
 - If the parsing does not respect the parsing format structure (eg. declare the room first and number of ants later) the programm will return "ERROR"
 - If there is no possible path from the start to the end room, the program will return "ERROR"
 - Any non complain of the parsing format will return "ERROR"
@@ -70,6 +83,7 @@ This will create 100 ants and 200 rooms to be injected to the program to solve
 # Program Visual (A bonus for the project)
 
 My visual program that i write by myself is not very optimise, so it will be very chaotic to have alot of room.
+
 You can try to see it in a visual by using the maps/goodvisu.map
 
 To run with visual :
