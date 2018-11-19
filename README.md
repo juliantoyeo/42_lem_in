@@ -91,7 +91,7 @@ There is a lem_in file generator which can generate the parsing data with the fo
 ./lem-in_gen [number_of_ant] [number_of_room]
 ```
 
-My lem_in can solve the problem of 5000 ants and 5000 room on average of 30-40seconds (time to printing output not included)
+My lem_in can solve the problem of 5000 ants and 5000 room on average of 30-40seconds (time to print output not included)
 
 You can directly use the generator and parse the data to the program with the following command:
 
